@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Somuncu Baba</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Somuncu Baba</div>
+    <ul class="nav-links">
+      <li><a href="#anasayfa">Ana Sayfa</a></li>
+      <li><a href="#menu">Menü</a></li>
+      <li><a href="#iletisim">İletişim</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ANA SAYFA -->
+  <section id="anasayfa" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">Gelenekten Gelen Lezzet</p>
+      <h1 class="hero-title">Somuncu Baba</h1>
+      <p class="hero-sub">1435'ten bu yana süregelen kadim bir sofranın sıcaklığı</p>
+      <a href="#menu" class="hero-btn">Menümüzü Keşfedin</a>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- MENÜ -->
+  <section id="menu" class="menu-section">
+    <div class="section-header">
+      <p class="section-sub">Geleneksel Tatlar</p>
+      <h2 class="section-title">Menümüz</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="menu-categories">
+
+      <div class="menu-category">
+        <h3 class="category-title">Çorbalar</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Ezo Gelin Çorbası</span>
+              <span class="item-desc">Kırmızı mercimek, bulgur, nane</span>
+            </div>
+            <span class="item-price">₺85</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Tarhana Çorbası</span>
+              <span class="item-desc">Ev yapımı tarhana, domates, biber</span>
+            </div>
+            <span class="item-price">₺90</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Beyran</span>
+              <span class="item-desc">Kuzu eti, pirinç, sarımsak</span>
+            </div>
+            <span class="item-price">₺120</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3 class="category-title">Ana Yemekler</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Kuzu Tandır</span>
+              <span class="item-desc">Fırında yavaş pişirilmiş kuzu, pilav</span>
+            </div>
+            <span class="item-price">₺380</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">İskender Kebap</span>
+              <span class="item-desc">Döner eti, yoğurt, domates sosu, tereyağı</span>
+            </div>
+            <span class="item-price">₺320</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Hünkar Beğendi</span>
+              <span class="item-desc">Kuzu güveç, közlenmiş patlıcan püresi</span>
+            </div>
+            <span class="item-price">₺340</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Perde Pilavı</span>
+              <span class="item-desc">Tavuk, fıstık, badem, Bürsa usulü</span>
+            </div>
+            <span class="item-price">₺280</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3 class="category-title">Ekmekler & Pide</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Somuncu Baba Ekmeği</span>
+              <span class="item-desc">Odun fırınında pişirilmiş özel somun</span>
+            </div>
+            <span class="item-price">₺45</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Kaşarlı Pide</span>
+              <span class="item-desc">Taze hamur, bol kaşar</span>
+            </div>
+            <span class="item-price">₺160</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Etli Ekmek</span>
+              <span class="item-desc">Kıymalı, biberli, ince açma</span>
+            </div>
+            <span class="item-price">₺180</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3 class="category-title">Tatlılar & İçecekler</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Sütlaç</span>
+              <span class="item-desc">Fırında fırınlanmış, ev yapımı</span>
+            </div>
+            <span class="item-price">₺95</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Baklava</span>
+              <span class="item-desc">El açması, antep fıstıklı</span>
+            </div>
+            <span class="item-price">₺130</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Osmanlı Şerbeti</span>
+              <span class="item-desc">Gül, tamarind veya limon</span>
+            </div>
+            <span class="item-price">₺65</span>
+          </div>
+          <div class="menu-item">
+            <div class="item-info">
+              <span class="item-name">Türk Kahvesi</span>
+              <span class="item-desc">Geleneksel cezve, lokum ikramıyla</span>
+            </div>
+            <span class="item-price">₺75</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- İLETİŞİM -->
+  <section id="iletisim" class="contact-section">
+    <div class="section-header light">
+      <p class="section-sub">Bize Ulaşın</p>
+      <h2 class="section-title">İletişim</h2>
+      <div class="divider light"></div>
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <div class="info-block">
+          <div class="info-icon">📍</div>
+          <div>
+            <h4>Adres</h4>
+            <p>Buhara Caddesi No:7<br />Merkez, Kayseri</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-icon">🕐</div>
+          <div>
+            <h4>Çalışma Saatleri</h4>
+            <p>Her gün<br />09:00 – 22:00</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-icon">📞</div>
+          <div>
+            <h4>Telefon</h4>
+            <p>+90 352 000 00 00</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-icon">✉️</div>
+          <div>
+            <h4>E-posta</h4>
+            <p>info@somuncubaba.com</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Adınız Soyadınız" required />
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="E-posta Adresiniz" required />
+        </div>
+        <div class="form-group">
+          <input type="tel" id="phone" placeholder="Telefon Numaranız" />
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="5" placeholder="Mesajınız..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Gönder</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Somuncu Baba — Tüm hakları saklıdır.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
